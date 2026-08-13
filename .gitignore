@@ -1,0 +1,89 @@
+# ==================================================
+# AI Voice Assistant - .gitignore
+# ==================================================
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled files
+*.so
+*.dll
+*.exe
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Environment Variables
+.env
+.env.*
+
+# IDE Settings
+.vscode/
+.idea/
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Logs
+logs/
+*.log
+
+# Coverage Reports
+.coverage
+coverage.xml
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Database Files
+*.db
+*.sqlite3
+
+# Project Data (Optional)
+data/history.json
+data/cache.json
+
+# API Keys / Secrets
+config/secrets.json
+config/api_keys.json
+
+# Generated Reports
+reports/
+
+# Screenshots (Optional)
+screenshots/
+
+# Audio Recordings (Optional)
+recordings/
+*.wav
+*.mp3
+
+# PyInstaller
+*.spec
+
+# CustomTkinter Cache
+customtkinter.json
